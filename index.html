@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>One Piece</title>
+</head>
+<body>
+    <h1>Progresso One Piece</h1>
+    <div class="container">
+        <label for=epAssistido>Episódio que está assistindo:</label>
+        <input id= "epAssistido"type="number">
+        <label for=epLancado>Último episódio lançado:</label>
+        <input id= "epLancado"type="number">
+        <progress id="barra-progresso" value="0" max="100"></progress>
+        <p id="Percentual">0%</p>
+        <a id="mensagemStatus"></a>
+        <br>
+        <a id="TempoRestante"></a>
+    </div>
+    <div class="imagens">
+        <img class="sanji" src="imagens\Sanji.png">
+        <img class="luffy" src="imagens\Luffy.png">
+        <img class="zoro" src="imagens\Zorao.png">
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
